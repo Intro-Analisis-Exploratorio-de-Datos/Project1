@@ -21,10 +21,10 @@ As a retrorespective study, the study has been provided with two datasets:
 
 We have created heatmaps to visualizae the null data in each dataset - cash request(Figure 1) and fees (figure 2), *red* marks cells with null data while *green* marks those with values. At this stage, our focus is to analyze the meaning and impact of each collection of data thus engage with the next step of data cleaning. 
 
-![alt text](Resources\null_cr_heatmap.png)
+![alt text](Resources/null_cr_heatmap.png)
 <p align="center"><b>Figure 1</b>
 
-![alt text](Resources\null_fees_heatmap.png)
+![alt text](Resources/null_fees_heatmap.png)
 <p align="center"><b>Figure 2</b>
 
 ### - Data Types
@@ -49,15 +49,15 @@ For detailed imputation process, please check *[NoteBooks\3_DataCleaning.ipynb]*
 
     Dataset has in total 23970 rows, representing users who had requested cash with IronHack Paymnets from 2019-11-19 until 2020-11-01.
     2020-10 has the most users who made their 1st transaction with the company. 
-    ![alt text](Resources\cohort_overview_cr.png)
+    ![alt text](Resources/cohort_overview_cr.png)
 
 - Distribution Plots
 
     - Distrubution of Different Status of Cash Request Types
-    ![alt text](Resources\status_cr_distribution.png)
+    ![alt text](Resources/status_cr_distribution.png)
 
     - Line Chart for Request Frequency per Month
-    ![alt text](Resources\cr_frequency_monthly.png)
+    ![alt text](Resources/cr_frequency_monthly.png)
 
 
 ## **Exploratory Graphic Analysis for Fees Dataset**
@@ -71,16 +71,16 @@ For detailed imputation process, please check *[NoteBooks\3_DataCleaning.ipynb]*
 - Distribution Plots
 
     - Bar Plot of Fee types
-    ![alt text](Resources\fees_types_plot.png)
+    ![alt text](Resources/fees_types_plot.png)
 
     - Distribution of Fee Status
-    ![alt text](Resources\fee_status.png)
+    ![alt text](Resources/fee_status.png)
 
     - Fees Transaction Frequency by Started_Date
-    ![alt text](Resources\fees_frequency_start_date.png)
+    ![alt text](Resources/fees_frequency_start_date.png)
 
     - Proportion of Fees Transaction Categories
-    ![alt text](Resources\Proportion_fee_category.png)
+    ![alt text](Resources/Proportion_fee_category.png)
 
 
 ## Visualizations of Relation between Two Datasets
@@ -88,10 +88,10 @@ For detailed imputation process, please check *[NoteBooks\3_DataCleaning.ipynb]*
 - Charts and graphs
 
     - Comparison of Fee Transaction and Cash Request Status
-    ![alt text](Resources\fee_cr_status_compare.png)
+    ![alt text](Resources/fee_cr_status_compare.png)
 
     - Comparison of Fee Transaction and Cash Request Frequency per Month
-    ![alt text](Resources\fee_cr_frequency_compare.png)
+    ![alt text](Resources/fee_cr_frequency_compare.png)
 
 
 - Interpretations
