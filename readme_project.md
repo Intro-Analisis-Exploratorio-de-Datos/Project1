@@ -215,7 +215,7 @@ In this section, we delve deeper into the incident rate observed in October 2020
 Understanding the trends and causes of incidents, particularly in the "Regular" loan category, is crucial for improving service quality and maintaining a positive business reputation. Further investigation into the high number of rejected commissions in October 2020 is necessary to identify and rectify underlying issues.
 
 
-### 4.2 **Analysis of the Relationship Between Transfer Type and Income Generated
+### 4.2 Analysis of the Relationship Between Transfer Type and Income Generated
 
 This section analyzes the relationship between monthly income and loan activities. The goal is to understand how different loan types and loan activity levels influence revenue generation.
 
@@ -240,6 +240,8 @@ Understanding the relationship between loan activities and monthly income is cru
 
 This section details the calculation and visualization of monthly loan amounts and fee incomes, including efficiency metrics per dollar lent. After gaining insights into monthly loans and incomes, we began to evaluate the efficiency of our business in generating revenue. Business efficiency is defined as the percentage of income generated for every 1% of capital lent.
 
+![alt text](Resources/dollar.png)
+
 ### Key Observations
 
 1. **Positive Trend in Income Efficiency**:
@@ -257,11 +259,44 @@ Understanding the efficiency trends and the factors contributing to peak perform
 
 ## **Conclusion**
 
-- Key findings
+### Key findings
+
+**· Retention rate:** 
+notable increase in activity was observed during the months of June, July, and August.
+Further investigation is required to identify the factors that contributed to this surge in activity during these months.
+
+**· Incident rate:** the distribution and intensity of incidents over time, highlighting june,july and august.After then the incidents fall while the cash request increases. On May was included the instant payment.
+
+**· Income by cohort:** Cohorts from June 2020, July 2020, and September 2020 have notably high revenues. Identifying the users in these cohorts is crucial as they are loyal customers with significant value. The income starts increasing in August after a decline, reaching its maximum value in October and generating the highest income.
+
+**· Incident Rate by Loan Type and Status:** Among the two loan types, "Regular" loans cause more incidents than "Instant" loans. The incident rate for "Regular" loans increased significantly from August 2020 to October 2020, suggesting a need to study and improve this loan type to reduce the incident rate.Furthermore on October 2020, there was an unprecedented number of "rejected" commissions and a significant decrease in "confirmed" commissions. This requires further investigation to determine whether it was due to a policy change or a system failure.
+
+**· Analysis of the Relationship Between Transfer Type and Income Generated:** The introduction of instant loans in May 2020 contributed positively to generated income, indicating that this service was well-adapted by clients.
+
+**· Monthly Financial Analysis:** There is a notable positive trend in the income generated per dollar lent, with the peak appearing in the last month of the dataset.
+Starting in May 2020, there is a sharp increase in efficiency, indicating that the company has become more effective in utilizing capital to generate income from this month onward.
+
+
 
 - Conclusion
 
-- Next steps
+We can conclude that the company has experienced an increase in retention, particularly during the months of June, July, and August. This period also saw a rise in activity, which correlated with an increase in incidents. However, the incidents are not directly related to the increase in activity, as a future scenario shows that an increase in activity can lead to a decrease in total incidents. These incidents could involve money or debit issues.
+
+In terms of revenue, it is evident that the company has increased its income since the incorporation of instant payments. The instant payment service has proven to be highly beneficial for the enterprise, as its implementation has significantly boosted revenue. Despite the increase in incidents associated with this new payment method, the overall revenue has grown substantially compared to regular payments.
+
+The same positive impact is demonstrated in the ROI per dollar lent. There is a notable positive trend in the income generated per dollar lent, with the peak appearing in the last month of the dataset. Starting in May 2020, there has been a sharp increase in efficiency, indicating that the company has become more effective in utilizing capital to generate income from this month onward.
+
+In summary, the introduction of instant payments has been advantageous for the company, enhancing both revenue and efficiency, despite the accompanying increase in incidents. This suggests that further focus on optimizing instant payments and mitigating related incidents could drive even greater business success.
+
+
+
+#Analysis of the group flow
+
+Reflect and what helped you move forward, what held you back. Cherish what made you feel great, and anticipate future risks.
+
+![alt text](Resources/R1.png)
+![alt text](Resources/R2.png)
+
 
 
 
