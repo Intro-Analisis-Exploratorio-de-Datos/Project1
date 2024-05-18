@@ -290,7 +290,7 @@ In summary, the introduction of instant payments has been advantageous for the c
 
 
 
-#Analysis of the group flow
+## Analysis of the group flow
 
 Reflect and what helped you move forward, what held you back. Cherish what made you feel great, and anticipate future risks.
 
