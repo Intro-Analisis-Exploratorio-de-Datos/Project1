@@ -136,7 +136,7 @@ Incidents in this context refer to issues such as rejected direct debits or dela
    - In August, despite an increase in cash request demand, there is a noticeable decrease in incidents.
    - This decline in incidents amidst rising demand suggests that changes were made to reduce the incidents.
    
-   the software or increased efforts were undertaken to mitigate incident occurrences as an examples.(esto nose)
+  
 
 3. **Heatmap Analysis**:
    - The same trend can be detected in the heatmap, which shows the increment of incidents in the first month.
@@ -192,48 +192,76 @@ The revenue graph aligns with the increased activity shown in the incident rate 
 
 This analysis highlights the importance of tracking cohort-specific revenue and understanding the factors driving their performance. Identifying key cohorts and their characteristics can help in strategizing for better customer retention and revenue growth.
 
-## 4.New metric TBC
+## 4.New metrics
+### 4.1 **Incident Rate by Loan Type and Status**
 
-## **Insights and Findings**
+In this section, we delve deeper into the incident rate observed in October 2020, aiming to investigate the cause and impact on the business. We analyzed the incident rate using months as cohorts and created graphs based on loan type (regular or instant) and loan status (accepted, rejected, cancelled, & confirmed). The goal is to identify which elements contribute most to the incident rate and how they affect revenue and the business's reputation.
 
-- Key findings
+![Incident Rate by Loan Type and Status](Resources/incident_type.png)
 
-- Anomalies and patterns
+### Key Observations
 
-- Potential actions
+1. **Overall Incident Rate**:
+   - The incident rate showed a notable increase starting in June 2020, with a peak in October 2020.
+   - Among the two loan types, "Regular" loans cause more incidents than "Instant" loans. The incident rate for "Regular" loans increased significantly from August 2020 to October 2020, suggesting a need to study and improve this loan type to reduce the incident rate.
+   - In October 2020, there was an unprecedented number of "rejected" commissions and a significant decrease in "confirmed" commissions. This requires further investigation to determine whether it was due to a policy change or a system failure.
 
+2. **Impact on Revenue and Business Image**:
+   - The increase in incidents from June 2020 and the peak in October 2020 had a noticeable impact on the business.
+   - The higher incident rate in "Regular" loans indicates potential issues that need addressing to maintain business image and customer satisfaction.
+
+### Conclusion
+
+Understanding the trends and causes of incidents, particularly in the "Regular" loan category, is crucial for improving service quality and maintaining a positive business reputation. Further investigation into the high number of rejected commissions in October 2020 is necessary to identify and rectify underlying issues.
+
+
+### 4.2 **Analysis of the Relationship Between Transfer Type and Income Generated
+
+This section analyzes the relationship between monthly income and loan activities. The goal is to understand how different loan types and loan activity levels influence revenue generation.
+
+![alt tex](Resources/fees_income.png)
+
+### Key Observations
+
+1. **Impact of Instant Loans**:
+   - The introduction of instant loans in May 2020 contributed positively to generated income, indicating that this service was well-adapted by clients.
+
+2. **Positive Correlation**:
+   - There is a positive correlation between loan activity and monthly income. The increase in loan requests starting in June 2020 had a direct impact on revenue.
+
+3. **October 2020 Income Peak**:
+   - In October 2020, we experienced a peak in income. This suggests that the company may have organized an event or activity that boosted user engagement and, consequently, revenue.
+
+### Conclusion
+
+Understanding the relationship between loan activities and monthly income is crucial for optimizing business strategies. The positive impact of instant loans and the correlation between increased loan activity and revenue highlight the importance of adapting services to meet client needs and leveraging user engagement activities to boost income. Monitoring these trends will help in making informed decisions for future growth and revenue generation.
+
+### 4.3 **Monthly Financial Analysis**
+
+This section details the calculation and visualization of monthly loan amounts and fee incomes, including efficiency metrics per dollar lent. After gaining insights into monthly loans and incomes, we began to evaluate the efficiency of our business in generating revenue. Business efficiency is defined as the percentage of income generated for every 1% of capital lent.
+
+### Key Observations
+
+1. **Positive Trend in Income Efficiency**:
+   - There is a notable positive trend in the income generated per dollar lent, with the peak appearing in the last month of the dataset.
+
+2. **Sharp Increase from May 2020**:
+   - Starting in May 2020, there is a sharp increase in efficiency, indicating that the company has become more effective in utilizing capital to generate income from this month onward.
+
+3. **High Levels in October 2020**:
+   - October 2020 shows both high amounts of money lent and high income generated. It would be beneficial to investigate the strategies employed in this month and the previous month to replicate their success in the future.
+
+### Conclusion
+
+Understanding the efficiency trends and the factors contributing to peak performance months can help in formulating strategies that enhance revenue generation. This analysis underscores the importance of continual monitoring and optimization of business processes to maintain and improve efficiency in capital utilization.
 
 ## **Conclusion**
 
-- Summary
+- Key findings
+
+- Conclusion
 
 - Next steps
 
 
-## **Appendix**
 
-*session 1 - 4th May*
-
-- crear organization in github
-- study the raw data and understand the dataframes -> flowchart of cash request, fee&reimbursement created
-- create Trello board to notedown tasks (https://trello.com/b/LRPUSwtH/ironhack-firstproject)
-- EDA
-    1. Exploratory Graphical Analysis for df_fees;
-        *e.g. 'Distribution of type of fees', 'Number of Transactions by Status', 'Transaction Frequency by Date', 'Proportion of Transaction Categories'*
-    2. Exploratory Graphical Analysis for df_cash_request;
-        *e.g. 'Distrubution of cash requests status by types', 'Request Frequency per Month'*
-    3. Exploratory Graphical Analysis of Relationship between both DataFrames.
-        *e.g. 'Comparison of Transaction and Request Status', 'Comparison of Transaction and Request Frequency per Month'*
-
-
-*session 2 - 7th Mayo*
-
-- data cleaning -> investigate null data and fill in/drop accordingly
-- define cohort -> first transaction month
-- calculate cohort 'retention rate' by month
-
-*session 3 - 9th Mayo*
-
-- correct calculation of 'retention rate'
-- fill in Null value in heatmap
-- investigate rare date -> fees status 'cancelled' & "paid"; transaction "send_at" after "received_date" 
